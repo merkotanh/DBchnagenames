@@ -8,7 +8,6 @@ begin
 
   def select_data(table)
     @client.query("SELECT * FROM #{table}")
-
   end
 
   def insert_data(table, column1, data1, column2, data2, id)
